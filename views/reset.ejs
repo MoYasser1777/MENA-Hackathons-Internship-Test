@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+<form action="/reset/<%= token %>" method="POST">
+  <div>
+    <label for="email">Enter Username:</label>
+    <input type="email" name="email" id="email" placeholder="email">
+</div>
+<div>
+    <label for="password">Enter new password:</label>
+    <input type="password" name="newPassword" id="newPassword" placeholder="password">
+</div>
+    <button type="submit">Reset Password</button>
+  </form>
+</body>
+</html>
+  

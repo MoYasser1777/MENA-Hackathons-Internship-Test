@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects List</title>
+</head>
+
+<body>
+    <h1>Objects List</h1>
+    <ul>
+        <% objects.forEach(object => { %>
+            <li>
+                <strong>Name:</strong> <%= object.name %><br>
+                <strong>Description:</strong> <%= object.description %>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+
+</html>
